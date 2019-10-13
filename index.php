@@ -18,8 +18,8 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+      <a class="navbar-brand" href="#">Počátky matematiky</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,26 +27,21 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">Dějiny matematiky <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="mezopotamie.php">Mezopotámie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="recko.php">Řecko</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="neevropska_matematika.php">Neevropská matematika</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="text" placeholder="Vyhledávání" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hledat</button>
         </form>
       </div>
     </nav>
@@ -55,13 +50,26 @@
 
       <div class="starter-template">
         <h1>
-<?php
-  echo 'Centrální obrazovka všehomíra';
-
-?>
+            <p>Dějiny matematiky </p>
         </h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
+
+        <div class="container">
+            <h7>
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="font-weight-normal">Historie matematiky sahá od prvních pokusů pravěkého člověka spočítat úlovek, přes velký vzestup matematiky ve Starém Řecku až k moderní matematice rozrůzněné ve velký počet oborů, kterými se zabývá ohromný počet matematiků. </p>
+                    <p class="font-weight-normal">Je třeba si uvědomit, že až do moderní doby probíhal vývoj v geograficky oddělených částech světa různě a dnes univerzálně známé poučky jako je např. Pythagorova věta byly objevovány znovu v Řecku, <a href ="http://ktrojakova.php.braincraft.cz/lekce-2/neevropska_matematika.php" title="v Číně">v Číně</a>… Zároveň je nutné nepřehlížet vývoj neevropské matematiky, poněvadž zvláště ta arabská, čínská a indická během středověku evropskou co do šíře znalostí značně předstihla. </p>
+                    <p class="font-weight-normal">Až nástup novověku společně s objevem diferenciálního a integrálního počtu odstartovaly dnešní mohutný rozkvět evropské matematiky. Úspěchy dosažené na poli matematickém často předcházely či podmiňovaly jiné, praktičtější nebo výraznější úspěchy člověka v oblasti technologií, ať už jde o cestu člověka na Měsíc nebo moderní počítač a internet. </p>
+            </h7>
+                </div>
+                <div class="col-md-4">
+                    <img src="cisla.jpg" height="700" alt="Čísla starověku">
+                </div>
+            </div>
+        </div>
+
 
     </main><!-- /.container -->
 
